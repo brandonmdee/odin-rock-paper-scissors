@@ -86,7 +86,3 @@ if (playerScore > computerScore) {
 } else {
     console.log(`player has ${playerScore} points, computer has ${computerScore} points. The game ends in a draw!`);
 }
-/* if (!playerSelection === "rock" || !playerSelection === "paper" || !playerSelection === "scissors"  ) {
-            let playerSelection = prompt("please enter a valid entry this time: 'rock','paper', or 'scissors'.");
-        }
-        */ //dummied code to fix.
