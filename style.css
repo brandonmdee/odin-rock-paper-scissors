@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
+}
+div {
+    padding: 8px;
+    display: flex;
+    gap: 16px;
+}
+h2 {
+    display: flex;
+    font-weight: 1100;
+}
+.rps {
+    display: flex;
+    flex-direction: column;
+}
+.active {
+    background-color: blue;
+    color: white;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 500px;
+    background-color: orange;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    font-family: sans-serif;
+    
+}
+#games {
+    display: flex;
+    flex-direction: column;
+}

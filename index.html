@@ -5,35 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./javascript.js" defer></script>
+    <link href="./style.css" rel="stylesheet">
     <title>odin: rock paper scissors</title>
 </head>
 <body>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        div {
-            padding: 8px;
-            display: flex;
-            gap: 16px;
-        }
-        h3 {
-            display: flex;
-        }
-        .rps {
-            display: flex;
-            flex-direction: column;
-        }
-        .active {
-            background-color: blue;
-            color: white;
-        }
-    </style>
+    <div id="container">
+    
     <div class="rps">
-        <h3>choose your fate: rock, paper, or scissors</h3>
+        <h2>choose your fate: rock, paper, or scissors</h3>
         <button id="button" class="rock">Rock</button>
         <button id="button" class="paper">Paper</button>
         <button id="button" class="scissors">Scissors</button>
@@ -41,5 +20,10 @@
     <div class="play">
         <button id="play">Play a round</button>
     </div>
+        <div id="games">
+        <div id="round-result"></div>
+        <div id="score"></div>
+            </div>
+            </div>
 </body>
 </html>
