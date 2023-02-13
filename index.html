@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript.js" defer></script>
     <title>odin: rock paper scissors</title>
 </head>
 <body>
-    <script src="./javascript.js"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        div {
+            padding: 8px;
+            display: flex;
+            gap: 16px;
+        }
+        h3 {
+            display: flex;
+        }
+        .rps {
+            display: flex;
+            flex-direction: column;
+        }
+        .active {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    <div class="rps">
+        <h3>choose your fate: rock, paper, or scissors</h3>
+        <button id="button" class="rock">Rock</button>
+        <button id="button" class="paper">Paper</button>
+        <button id="button" class="scissors">Scissors</button>
+    </div>
+    <div class="play">
+        <button id="play">Play a round</button>
+    </div>
 </body>
 </html>
